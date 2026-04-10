@@ -2,103 +2,62 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Весілля Дмитра та Яни - 25.04.26</title>
+    <title>Весілля Дмитра та Яни</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Гарний шрифт -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
     <style>
-        /* Основні стилі */
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: Arial, sans-serif;
             background-color: #fdfcff;
-            /* Зображення як фон, що покриває весь екран */
-            background-image: url('https://img.freepik.com/free-photo/elegant-wedding-rings-with-flowers_23-2148119054.jpg?t=st=1721151676~exp=1721155276~hmac=e31818290f674510b00109b82f6e9b9087a91a92e10a20f924f749b5c3d4a413&w=1380');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed; /* Фон залишається на місці при прокручуванні */
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        /* Контейнер для вмісту */
-        .container {
-            max-width: 800px;
-            width: 90%;
-            background: rgba(255, 255, 255, 0.95); /* Напівпрозорий білий фон */
-            padding: 50px;
-            border-radius: 20px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.15); /* Більш м'яка тінь */
-            margin: 50px 0;
-            backdrop-filter: blur(5px); /* Ефект розмиття фону за контейнером */
-        }
-
-        /* Стилі для заголовків */
-        h1, h2 {
-            font-family: 'Playfair Display', serif;
+            background-image: 
+                url("https://www.transparenttextures.com/patterns/flowers.png"),
+                linear-gradient(to bottom, #fdfcff, #eaf2ff);
+            background-size: 300px, cover;
+            background-repeat: repeat, no-repeat;
             text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
         }
 
         h1 {
-            color: #bfa071; /* Золотий колір */
-            font-size: 60px;
-            margin-bottom: 5px;
-            font-weight: 700;
+            color: #3a6ea5;
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            margin-bottom: 10px;
         }
 
         h2 {
-            color: #3a6ea5; /* Синій колір */
-            font-size: 30px;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
+            color: #5c7cba;
+            margin-top: 20px;
         }
 
-        /* Стилі для тексту */
         p {
             font-size: 18px;
-            line-height: 1.8;
-            color: #555;
-            text-align: center;
+            color: #444;
         }
 
-        /* Блоки з інформацією */
         .block {
-            margin: 40px 0;
-            text-align: center;
+            margin: 25px 0;
         }
 
-        .highlight {
-            font-weight: 600;
-            color: #3a6ea5;
-        }
-
-        /* Золоті лінії-роздільники */
-        .divider {
-            width: 100px;
-            height: 2px;
-            background-color: #bfa071; /* Золотий колір */
-            margin: 20px auto;
-        }
-
-        /* Карта Google */
         iframe {
             border-radius: 12px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
-        /* Адаптивність для мобільних пристроїв */
-        @media (max-width: 768px) {
-            h1 { font-size: 40px; }
-            h2 { font-size: 24px; }
-            .container { padding: 30px; }
-            p { font-size: 16px; }
+        img {
+            width: 100%;
+            border-radius: 15px;
+            margin-top: 15px;
         }
     </style>
 </head>
@@ -106,58 +65,43 @@
 <body>
 
 <div class="container">
+ <img src="photo.jpg" alt="Пейзаж" width="500" height="300">
+    <h1>Дмитро & Яна 💍</h1>
 
-    <div class="block">
-        <div class="divider"></div>
-        <h1>Дмитро <span style="font-family: sans-serif; font-weight: normal; color: #555;">&</span> Яна</h1>
-        <div class="divider"></div>
-        <p style="font-size: 20px; color: #555; margin-top: 10px;">Запрошують Вас на своє весілля!</p>
-    </div>
 
-    <p><i>Кохання – це одна душа, що живе у двох тілах. ❤️</i></p>
+  
+    <p><i>Все починається з кохання ❤️</i></p>
 
     <div class="block">
         <h2>Дата</h2>
-        <div class="divider"></div>
-        <p style="font-size: 24px; font-weight: 600; color: #3a6ea5;">25 квітня 2026 року</p>
+        <p>25 квітня 2026</p>
     </div>
 
     <div class="block">
-        <h2>Локації</h2>
-        <div class="divider"></div>
+        <h2>Місце та час</h2>
 
-        <p><b class="highlight">Церемонія:</b><br>
-        <span style="font-size: 20px; color: #bfa071;">10:50</span> — РАЦС ім. Т. Шевченка<br>
-        <span style="font-size: 16px;">(Поштовий проспект, 23)</span></p>
+        <p><b>Локація 1:</b><br>
+        10:50 — Т. Шевченка<br>
+        (Поштовий проспект, 23)</p>
 
-        <p><b class="highlight">Святкування:</b><br>
-        <span style="font-size: 20px; color: #bfa071;">14:45</span> — Ресторан "Каліфорнія"<br>
-        <span style="font-size: 16px;">(вул. Романа Шухевича, 19б)</span></p>
+        <p><b>Локація 2:</b><br>
+        14:45 — Ресторан "Каліфорнія"<br>
+        (вул. Романа Шухевича, 19б)</p>
     </div>
 
     <div class="block">
         <h2>Дрес-код</h2>
-        <div class="divider"></div>
-        <p>Ми будемо раді бачити Вас у святковому вбранні. <br>Просимо додати до Вашого образу <b class="highlight">синій елемент</b> 💙.</p>
+        <p>Просимо додати до образу <b>синій елемент</b> 💙</p>
     </div>
 
     <div class="block">
         <h2>Анкета гостя</h2>
-        <div class="divider"></div>
-        <p>Будь ласка, заповніть анкету, щоб ми могли краще підготуватися до Вашого візиту.</p>
-        <br>
-        <iframe 
-            src="https://docs.google.com/forms/d/e/1FAIpQLSdQZmm0JDK-WhMOCIQ-hjHEnZkECbE5-_Vjdopoh-2s8sxrew/viewform?embedded=true" 
-            width="100%" 
-            height="900" 
-            style="border: none;">
-        </iframe>
-    </div>
 
-    <div class="block">
-        <div class="divider"></div>
-        <p style="font-size: 16px; color: #777;">З нетерпінням чекаємо на Вас!</p>
-        <div class="divider"></div>
+        <iframe 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdQZmm0JDK-WhMOCIQ-hjHEnZkECbE5-_Vjdopoh-2s8sxrew/viewform?embedded=true"
+            width="100%" 
+            height="900">
+        </iframe>
     </div>
 
 </div>
